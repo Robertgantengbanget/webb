@@ -1,0 +1,58 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header dan footer */
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Gaya utama */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Container untuk konten utama */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Gaya judul */
+h1 {
+    color: #333;
+}
+
+/* Gaya subjudul */
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Paragraf */
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Footer */
+footer p {
+    font-size: 14px;
+    color: #ccc;
+}
